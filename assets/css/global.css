@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+  :root {
+
+    --cor1: #ea1d2c;
+    --cor2: #f1f0f0;
+    --cor3: #fff;
+    --cor4: #000000;
+    --cor5: #cc1825;
+    --cor6: #9eb53e;
+    --cor7: #b6d048;
+  
+    --font-Roboto: "Roboto", sans-serif;
+    --fonte-Quicksand: "Quicksand", sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: var(--font-Opensans);
+}
+
+  body {
+    background-color: var(--cor3);
+    font-family: "Quicksand", sans-serif;
+  }
